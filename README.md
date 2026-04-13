@@ -29,7 +29,7 @@ that our method significantly outperforms existing state-of-the-art
 baseline methods, as well as achieving numerous benefits in privacy
 preservation and communication efficiency.
 
-![Model Architecture](./imgs/Model%20Arch%20V3.jpg)
+![Model Architecture](imgs/Model%20Arch%20V3.jpg)
 
 ## Requirements
 
@@ -89,7 +89,7 @@ lora_target_modules: ["self_attn.q_proj","self_attn.k_proj", "self_attn.v_proj",
 
 ### Results Analysis
 
-![experiment_results](./imgs/results.png)
+![experiment_results](imgs/results.png)
 By default, the testing will be conducted at the end of training, the metric curves are also recorded with tensorboard and wandb if it's turning on. 
 ```yaml
 log_wandb: True
