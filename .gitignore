@@ -1,0 +1,9 @@
+log/
+log_tensorboard/
+**/*.ipynb
+dataset/*
+!dataset/preprocessing/
+!dataset/preprocessing/**
+**/__pycache__/
+**/*save*/
+wandb/*
